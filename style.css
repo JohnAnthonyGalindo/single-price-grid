@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;  
+}
+
+
+
+main {
+    background-color: #fff;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 10px rgba(0,0,0,0.05);
+    overflow: hidden;
+    width: 800px;
+}
+
+section {
+    padding: 35px;
+}
+
+.Wisteria {
+    background-color: hsl(283, 39%, 53%);
+    color: #ffff;
+}
+
+.light-wisteria {
+    background: hsl(281, 44%, 70%, 1);
+    color: #ffff;
+    
+}
+
+.row {
+    display: flex;
+}
+
+.row > section {
+    flex: 1;
+}
+
+h1 {
+    color: hsl(281, 44%, 70%, 1);
+    font-size: 34px;
+    
+}
+
+.observatory {
+    color: hsl(166, 95%, 30%);
+}
+
+p {
+  font-size: 18px;  
+}
+
+p.light-black {
+    color: #999;
+    margin: 7px;
+}
+
+
+p.faded {
+    color: ghostwhite;
+    align-items: center;
+    display: flex;
+
+}
+
+p.faded span {
+    color: #ffff;
+    font-size: 50px;
+    margin-right: 10px;
+    
+}
+
+.button {
+    background-color: hsl(166, 95%, 30%);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px 10px 10px rgba(0,0,0,0.05);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 0;
+    margin-top: 15px;
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+    cursor: pointer;
+    transition-duration: 0.4s ;
+}
+
+/*Below will go button animation*/
+
+.button1 {
+    background-color:hsl(166, 95%, 30%);
+    color: white;
+}
+
+
+.button1:hover {
+  background-color: #4CAF50;
+    color: white;
+
+}
+
+ul { 
+    list-style-type: none;
+    padding: 0;
+    opacity: 0.7;
+}
+
+
+ul li {
+    line-height: 28px;
+    
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+
+
+
